@@ -1,0 +1,92 @@
+/* فقط لصفحة login */
+body.login-page  {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0E1A2B;  /* خلفية أزرق غامق */
+  
+}
+
+/* صندوق تسجيل الدخول */
+body.login-page .login-container {
+    width: 350px;
+    
+    padding: 40px 30px;
+    background-color:#1F2D3D; /* مربع رمادي فاتح */
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(223, 220, 220, 0.774);
+    text-align: center;
+    
+}
+.login-container input {
+    color: white;
+}
+
+/* عنوان الصندوق */
+body.login-page .login-container h2 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* مجموعة الحقول */
+body.login-page .input-group {
+    position: relative;
+    margin: 15px 0;
+
+}
+
+/* أيقونات الحقول */
+body.login-page .input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fffefe;
+}
+
+/* الحقول */
+body.login-page .input-group input {
+    width: 90%;
+    padding: 12px 12px 12px 40px;
+    border: none;
+    border-radius: 8px;
+      background-color:rgba(211,211,211,.05); /* لون خلفية الحقول */
+    font-size: 16px;
+}
+
+/* Placeholder */
+body.login-page .input-group input::placeholder {
+    color: #888;
+}
+
+/* زر الدخول */
+body.login-page button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0284ff; /* زر لبني */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* تأثير hover للزر */
+body.login-page button:hover {
+    background-color: #00bfff;
+}
+
+/* رسالة الخطأ */
+body.login-page .error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
